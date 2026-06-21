@@ -19,6 +19,20 @@ Proyecto de desarrollo propio realizado por **Alejandro De Mendoza** como parte 
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Proyecto_API_De_Juridica] --> B[juridica-consultorio-leonel.zip]
+    A --> C[Pasos para despliegue.pdf]
+    A --> D[Usuario.docx]
+    B --> E[API Juridica - Consultorio Leonel]
+    E --> F[Endpoints REST]
+    E --> G[Logica de Negocio Juridica]
+    C --> H[Instrucciones de Despliegue]
+    D --> I[Documentacion de Usuario]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
